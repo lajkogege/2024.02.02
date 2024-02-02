@@ -1,0 +1,83 @@
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+
+    background-color: rgb(192, 242, 248);
+
+    width: 90%;
+    margin: auto;
+  }
+
+main{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(246, 232, 198);
+  }
+
+.elso{
+    border: 1px solid blue;
+}
+
+.elso label{
+    float:left;
+    width: 50%;
+  }
+
+.elso sup{
+    color: red;
+  }
+
+.elso legend{
+    border: 1px solid black;
+    background-color: rgb(61, 133, 61);
+    color: white;
+    padding: 8px;
+    margin-left:50px;
+    margin-top: 10px;
+  }
+
+.masodik{
+    border: 1px solid blue;
+}
+
+.masodik label{
+    float:left;
+    width: 50%;
+  }
+
+.masodik sup{
+    color: red;
+  }
+
+.masodik legend{
+    border: 1px solid black;
+    background-color: rgb(61, 133, 61);
+    color: white;
+    padding: 8px;
+    margin-left:50px;
+    margin-top: 10px;
+  }
+
+.harmadik{
+       border: 1px solid blue;
+       background-color: white;
+  }
+
+
+.harmadik sup{
+    color: red;
+  }
+
+.harmadik legend{
+    background-color: rgb(74, 118, 180);
+    color: rgb(37, 82, 137);
+    padding: 8px;
+    margin-left:50px;
+    margin-top: 10px;
+  }

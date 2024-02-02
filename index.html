@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lajkó Gergő</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <main>
+        <div>
+            <form action="/action_page.php">
+                <fieldset class="elso">
+                  <legend>Regisztráció:</legend>
+                  <label for="fname">Felhasználónév<sup>*<sup></label>
+                  <input type="text" id="fname" name="fname" placeholder="Példa János"><br><br>
+                  <label for="lname">Jelszó<sup>*</sup></label>
+                  <input type="text" id="lname" name="lname" placeholder="min 8 karakter"><br><br>
+                  <label for="email">e-mail cím <sup>*</sup></label>
+                  <input type="email" id="email" name="email" placeholder="palda.jani@valami.hu"><br><br>
+              
+                </fieldset>
+
+                <fieldset class="masodik">
+                    <legend>Születés</legend>
+                    <label for="birthday">Szüetési dátim:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                   
+                    <fieldset class="harmadik">
+                      <legend>személyes</legend>
+                            <div>
+                                
+                                <label for="vehicle1"> angol</label><br>
+                                <input type="checkbox" name="vehicle1" value="Bike">
+                                <label for="vehicle2"> német</label><br>
+                                <input type="checkbox" name="vehicle2" value="Car">
+                               
+
+                                <label for="cars">Választott szak:</label>
+                                <select name="cars" id="cars">
+                                  <option value="volvo">SZFA1</option>
+                                  <option value="saab">SZFA"</option>
+                                  <option value="opel">SZFB</option>
+                                </select>
+                                <br><br>                             
+
+
+                                <label for="html">férfi</label><br>
+                                <input type="radio" id="css" name="fav_language" value="CSS">
+                                <label for="html">nő</label><br>
+                                <input type="radio" id="css" name="fav_language" value="CSS">
+                            </div>
+                    </fieldset>
+                  </fieldset>
+                    <input type="submit" value="Submit">
+              </form> 
+        </div>
+    </main>
+</body>
+</html>
